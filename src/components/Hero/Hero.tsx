@@ -33,7 +33,7 @@ function Hero() {
 
           <button
             className="primary-button"
-            onClick={() => navigate('/carros')}
+            onClick={() => navigate('/login')}
           >
             Encontrar meu carro
             <span>→</span>
@@ -41,7 +41,11 @@ function Hero() {
 
           <button
             className="outline-button"
-            onClick={() => navigate('/carros')}
+            onClick={() =>
+              document.getElementById('cars-section')?.scrollIntoView({
+                behavior: 'smooth',
+              })
+            }
           >
             Ver veículos
           </button>
@@ -112,7 +116,7 @@ function Hero() {
 
           <button
             className="car-button"
-            onClick={() => navigate('/carros')}
+            onClick={() => navigate('/login')}
           >
             Ver detalhes →
           </button>

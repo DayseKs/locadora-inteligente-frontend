@@ -61,6 +61,7 @@ img {
     min-height: 100vh;
     width: 100%;
     overflow-x: hidden;
+    padding-top: 76px;
 }
 
 /* =========================================
@@ -139,5 +140,9 @@ select:focus-visible {
 
     body {
         overflow-x: hidden;
+    }
+
+    .app {
+        padding-top: 68px;
     }
 }

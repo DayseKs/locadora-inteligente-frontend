@@ -29,7 +29,7 @@ function CTA() {
 
       <button
         className="primary-button"
-        onClick={() => navigate('/carros')}
+        onClick={() => navigate('/login')}
       >
         Encontrar meu carro
         <span>→</span>

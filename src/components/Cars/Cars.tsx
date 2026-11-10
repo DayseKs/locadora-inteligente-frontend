@@ -5,7 +5,7 @@ function Cars() {
   const navigate = useNavigate()
 
   return (
-    <section className="cars-section">
+    <section className="cars-section" id="cars-section">
 
       <div className="cars-heading">
 
@@ -93,7 +93,7 @@ function Cars() {
               </div>
 
               <button
-                onClick={() => navigate('/carros')}
+                onClick={() => navigate('/login')}
                 aria-label="Ver Toyota Corolla"
               >
                 →
@@ -161,7 +161,7 @@ function Cars() {
               </div>
 
               <button
-                onClick={() => navigate('/carros')}
+                onClick={() => navigate('/login')}
                 aria-label="Ver Porsche 911"
               >
                 →
@@ -229,7 +229,7 @@ function Cars() {
               </div>
 
               <button
-                onClick={() => navigate('/carros')}
+                onClick={() => navigate('/login')}
                 aria-label="Ver BMW Série 3"
               >
                 →

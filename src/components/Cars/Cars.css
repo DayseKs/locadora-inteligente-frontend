@@ -4,6 +4,7 @@
 
 .cars-section {
     position: relative;
+    scroll-margin-top: 76px;
     width: 100%;
     padding: 110px 7%;
     box-sizing: border-box;
@@ -593,6 +594,7 @@
 @media (max-width: 500px) {
 
     .cars-section {
+        scroll-margin-top: 68px;
         padding: 70px 20px;
     }
 

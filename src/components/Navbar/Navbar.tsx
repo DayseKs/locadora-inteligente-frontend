@@ -17,19 +17,19 @@ function Navbar() {
 
       <nav className="nav-links">
 
-        <Link to="/">
+        <a href="/">
           Início
-        </Link>
+        </a>
 
-        <Link to="/carros">
+        <a href="#cars-section">
           Carros
-        </Link>
+        </a>
 
-        <Link to="/reservas">
+        <Link to="/login">
           Reservas
         </Link>
 
-        <a href="#sobre">
+        <a href="#footer">
           Sobre nós
         </a>
 
